@@ -10,6 +10,7 @@ MONTHS = ('Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
           'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec')
 NUM_SIM = 100000
 
+
 def getBirthdays(numberOfBirthdays):
     """주어진 갯수만큼의 생일을 생성하여 리스트로 반환"""
     birthdays = []
@@ -27,7 +28,6 @@ def getMatch(birthdays):
     if len(birthdays) == len(set(birthdays)):
         return False
     return True
-
 
 
 def main():
